@@ -1,4 +1,14 @@
-#header1 {
+body {
+	background-color: #1a1a1a;
+}
+
+
+#welcome {
     text-align: center;
     color: red;
+}
+
+p{
+	color: orange;
+	text-align: center;
 }
