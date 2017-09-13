@@ -16,4 +16,6 @@ p{
 .kirito{
 	text-align: center;
 	color: green;
+	border-style: double;
+	border-width: 2px;]
 }
