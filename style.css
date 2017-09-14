@@ -22,3 +22,10 @@ p{
 	height: 605px;
 	margin: 0 auto;
 }
+
+.starwarsbuttons{
+	margin: 0 auto;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+}
