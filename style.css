@@ -4,6 +4,7 @@ body {
 	background-repeat: no-repeat;
     background-position: left bottom;
 	background-attachment: fixed;
+	text-align: center;
     
 	
 }
@@ -38,10 +39,9 @@ p{
 .images{
 	
 	display: inline-block;
-	float: center;
-	position: relative;
-	text-align: center;
 	margin: 0 auto;
+	
+	
 }
 
 img{
