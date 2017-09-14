@@ -44,15 +44,14 @@ p{
 }
 
 img{
-	width: 50%;
-	height: 50%;
-	margin: 0 auto;
+	width: 300px;
+	height: 300px;
+	
 	
 	
 }
 
-#swbuttons{
-	
+.swbuttons{
 	text-align: center;
 }
 
