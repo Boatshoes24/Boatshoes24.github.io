@@ -1,21 +1,26 @@
 body {
 	background-color: #1A1A1A;
-	background-image: url("https://i.imgur.com/hQANdNK.png");
-	background-position: left;
+	background-image: url("https://i.imgur.com/mdwlj6B.jpg");
+	background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
 	
-	
+}
+
+a{
+	text-decoration:none;
 }
 
 
 #welcome {
     text-align: center;
-    color: red;
+    color: teal;
 	font-family: "Advent Pro";
 	font-size: 30px;
 }
 
 p{
-	color: orange;
+	color: black;
 	text-align: center;
 	font-family: "Advent Pro";
 	font-size: 24px;
@@ -34,6 +39,7 @@ p{
 	font-size: 20px;
 	padding: 10px;
 	background-color: #1A1A1A;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 img{
@@ -54,6 +60,8 @@ button{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	border-radius: 4px;
 	padding: 5px 12px;
+	font-family: convergence;
+	
 	
 	
 }
