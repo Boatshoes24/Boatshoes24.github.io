@@ -36,8 +36,10 @@ p{
 }
 
 .images{
+	
 	display: inline-block;
-	float: left;
+	float: right;
+	position: relative;
 	
 }
 
