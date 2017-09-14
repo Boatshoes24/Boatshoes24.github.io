@@ -25,13 +25,14 @@ p{
 	color: black;
 	text-align: center;
 	font-family: "Convergence";
-	font-size: 24px;
+	font-size: 22px;
 }
 .images{
 	
 	display: inline-block;
 	margin: 0 auto;
 	padding: 5px;
+	vertical-align: top;
 }
 img{
 	width: 300px;
@@ -52,12 +53,11 @@ button{
 	padding: 5px 12px;
 	font-family: convergence;
 }
-#kiritotext{
+#imagetext{
 	width: 300px;
+	margin: 0 auto;
 }
-#clawtext{
-	width: 300px;
-}
+
 /*.kirito{
 	
 	text-align: center;
