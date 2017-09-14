@@ -35,25 +35,18 @@ p{
 
 }
 
-.kirito{
+.images{
+	display: inline-block;
+	float: left;
 	
-	text-align: center;
-	color: white;
-	
-	width: 40%;
-	height: 40%;
-	margin: 0 auto;
-	font-family: "Antic";
-	font-size: 20px;
-	padding: 10px;
-	background-color: #252525;
-	box-shadow: -5px 5px 15px  #333333;
 }
 
 img{
 	width: 50%;
 	height: 50%;
 	margin: 0 auto;
+	
+	
 }
 
 #swbuttons{
@@ -65,11 +58,22 @@ button{
 	background-color: #252525;
     color: white;
     border: none;
-	box-shadow: -5px 5px 15px #333333;
+	box-shadow: -3px 5px 12px #333333;
 	border-radius: 4px;
 	padding: 5px 12px;
 	font-family: convergence;
-	
-	
-	
 }
+/*.kirito{
+	
+	text-align: center;
+	color: #ffccff;
+	
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+	font-family: "Convergence";
+	font-size: 16px;
+	padding: 10px;
+	background-color: #252525;
+	box-shadow: -5px 5px 15px  #333333;
+}*/
