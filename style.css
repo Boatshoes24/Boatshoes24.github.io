@@ -40,12 +40,14 @@ p{
 	display: inline-block;
 	float: center;
 	position: relative;
-	
+	text-align: center;
+	margin: 0 auto;
 }
 
 img{
 	width: 300px;
 	height: 300px;
+	
 	
 	
 	
