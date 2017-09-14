@@ -18,18 +18,18 @@ a:link{
 #welcome {
     text-align: center;
     color: teal;
-	font-family: "NTR";
+	font-family: "Helvetica";
 	font-size: 30px;
 }
 h1{
-	margin: 0;
+	margin: 5px;
 }
 p{
 	color: black;
 	text-align: center;
 	font-family: "Convergence";
 	font-size: 22px;
-	margin: 0;
+	margin: 2px;
 }
 .images{
 	
