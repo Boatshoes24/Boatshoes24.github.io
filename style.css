@@ -21,11 +21,15 @@ a:link{
 	font-family: "NTR";
 	font-size: 30px;
 }
+h1{
+	margin: 0;
+}
 p{
 	color: black;
 	text-align: center;
 	font-family: "Convergence";
 	font-size: 22px;
+	margin: 0;
 }
 .images{
 	
