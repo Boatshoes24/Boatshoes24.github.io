@@ -5,54 +5,40 @@ body {
     background-position: left bottom;
 	background-attachment: fixed;
 	text-align: center;
-    
-	
 }
-
 a{
 	text-decoration:none;
 }
-
 a:visited{
 	color: grey;
 }
 a:link{
 	color: white;
 }
-
-
 #welcome {
     text-align: center;
     color: teal;
 	font-family: "Advent Pro";
 	font-size: 30px;
 }
-
 p{
 	color: black;
 	text-align: center;
 	font-family: "Advent Pro";
 	font-size: 24px;
-
 }
-
 .images{
 	
 	display: inline-block;
 	margin: 0 auto;
-	
-	
+	padding: 5px;
 }
-
 img{
 	width: 300px;
 	height: 300px;
-	
-	
-	
-	
+	border-style: solid;
+	border-width: 1px;
 }
-
 .swbuttons{
 	text-align: center;
 }
@@ -65,6 +51,12 @@ button{
 	border-radius: 4px;
 	padding: 5px 12px;
 	font-family: convergence;
+}
+#kiritotext{
+	width: 300px;
+}
+#clawtext{
+	width: 300px;
 }
 /*.kirito{
 	
