@@ -6,11 +6,16 @@ body {
 #welcome {
     text-align: center;
     color: red;
+	font-family: "Advent Pro";
+	font-size: 30px;
 }
 
 p{
 	color: orange;
 	text-align: center;
+	font-family: "Advent Pro";
+	font-size: 24px;
+
 }
 
 .kirito{
@@ -18,9 +23,11 @@ p{
 	text-align: center;
 	color: green;
 	border-style: double;
-	width: 500px;
-	height: 605px;
+	width: 50%;
+	height: 50%;
 	margin: 0 auto;
+	font-family: "Antic";
+	font-size: 20px;
 }
 
 .starwarsbuttons{
