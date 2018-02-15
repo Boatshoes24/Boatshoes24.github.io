@@ -1,6 +1,10 @@
 body {
 	background-image: url('https://i.imgur.com/LsA4MjQ.jpg');
-	background-size: 100%;
+	background-size: contain;
+	/*background-attachment: fixed;*/
+	background-repeat: no-repeat;
+	background-color: black;
+	width: 100%;
 	font-family: Dosis;
 	color:white;
 	margin-top:5px;
@@ -17,7 +21,21 @@ img {
 	float:right;
 	margin-right: 70px;
 }
-/*
-.headerImage {
+
+a {
+	font-family: Dosis;
+	text-decoration: none;
+}
+
+.linkCol1 {
+	width: 10%;
+	text-align: center;
+	margin: 0;
 	float:left;
-}*/
+}
+
+.linkCol2 {
+	width: 10%;
+	float: left;
+	text-align: center;
+}
