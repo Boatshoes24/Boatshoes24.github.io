@@ -1,6 +1,6 @@
 body {
 	background-image: url('https://i.imgur.com/LsA4MjQ.jpg');
-	background-size: contain;
+	background-size: cover;
 	/*background-attachment: fixed;*/
 	background-repeat: no-repeat;
 	background-color: black;
