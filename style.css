@@ -1,78 +1,23 @@
 body {
-	background-color: #C5C5C5;
-	background-image: url("https://i.imgur.com/VVMbGdd.jpg");
-	background-repeat: no-repeat;
-    background-position: left bottom;
-	background-attachment: fixed;
-	text-align: center;
-}
-a{
-	text-decoration:none;
-}
-a:visited{
-	color: white;
-}
-a:link{
-	color: white;
-}
-#welcome {
-    text-align: center;
-    color: teal;
-	font-family: "Helvetica";
-	font-size: 30px;
-}
-h1{
-	margin: 5px;
-}
-p{
-	color: black;
-	text-align: center;
-	font-family: "Convergence";
-	font-size: 22px;
-	margin: 2px;
-}
-.images{
-	
-	display: inline-block;
-	margin: 0 auto;
-	padding: 5px;
-	vertical-align: top;
-}
-img{
-	width: 300px;
-	height: 300px;
-	border-style: solid;
-	border-width: 1px;
-}
-.swbuttons{
-	text-align: center;
+	background-image: url('https://i.imgur.com/LsA4MjQ.jpg');
+	background-size: 100%;
+	font-family: Dosis;
+	color:white;
+	margin-top:5px;
 }
 
-button{
-	background-color: #252525;
-    color: white;
-    border: none;
-	box-shadow: -3px 5px 12px #333333;
-	border-radius: 4px;
-	padding: 5px 12px;
-	font-family: convergence;
-}
-#imagetext{
-	width: 300px;
-	margin: 0 auto;
+h1 {
+	margin: 0;
+	letter-spacing: 5px;
+	text-transform: uppercase;
 }
 
-/*.kirito{
-	
-	text-align: center;
-	color: #ffccff;
-	
-	width: 50%;
-	height: 50%;
-	margin: 0 auto;
-	font-family: "Convergence";
-	font-size: 16px;
-	padding: 10px;
-	background-color: #252525;
-	box-shadow: -5px 5px 15px  #333333;
+img {
+	border-radius: 8px;
+	float:right;
+	margin-right: 70px;
+}
+/*
+.headerImage {
+	float:left;
 }*/
