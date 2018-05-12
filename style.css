@@ -1,50 +1,29 @@
 body {
-	background-image: url('https://i.imgur.com/LsA4MjQ.jpg');
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+	background-image: url(https://i.imgur.com/LsA4MjQ.jpg);
+	background-size: cover;
+	background-position: center;
 	background-color: #1a1a1a;
-	width: 100%;
-	font-family: Dosis;
-	color:white;
-	margin-top:5px;
+	color: rgba(255,255,255,0.7);
 }
 
 html {
 	height: 100%;
 }
 
+#content {
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
 h1 {
-	margin: 0;
-	letter-spacing: 5px;
-	text-transform: uppercase;
-}
-
-img {
-	border-radius: 8px;
-	float:right;
-	margin-right: 70px;
-}
-
-a {
-	font-family: Dosis;
-	text-decoration: none;
-}
-
-.linkCol1 {
-	width: 10%;
-	text-align: center;
-	margin: 0;
-	float:left;
-	padding: 5% 5% 0 5%;
-}
-
-.linkCol2 {
-	width: 10%;
-	float: left;
-	text-align: center;
-	padding: 5% 5% 0 5%;
-}
-
-button {
-	padding: 0 10%;
+	font-size: 4em;
 }
