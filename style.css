@@ -1,9 +1,9 @@
 body {
-	background-image: url(https://i.imgur.com/0h67P9q.jpg);
+	background-image: url(https://i.imgur.com/qI2VMr0.jpg);
 	background-size: cover;
 	background-position: center;
 	background-color: #1a1a1a;
-	color: rgba(255,255,255,0.7);
+	color: rgba(255,255,255,0.8);
 }
 
 html {
@@ -12,7 +12,7 @@ html {
 
 #content {
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 15%;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 				 0px 8px 13px rgba(0,0,0,0.1),
 				 0px 18px 23px rgba(0,0,0,0.1);
