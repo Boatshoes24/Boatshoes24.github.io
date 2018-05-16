@@ -10,6 +10,10 @@ html {
 	height: 100%;
 }
 
+.navbar {
+	background-color: #2a2a2a;
+}
+
 #content {
 	text-align: center;
 	padding-top: 15%;
@@ -42,6 +46,7 @@ a:visited {
 
 .btn {
 	background-color: #1a1a1a;
+	border: 1px solid #4a4a4a;
 }
 
 .btn:hover {

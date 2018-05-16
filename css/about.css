@@ -1,6 +1,28 @@
 body {
+	background-image: #1a1a1a;
+	background-size: cover;
+	background-position: center;
 	background-color: #1a1a1a;
-	color: white;
-	text-align: center;
+	color: rgba(255,255,255,0.9);
 }
 
+html {
+	height: 100%;
+}
+
+.navbar {
+	background-color: #2a2a2a;
+}
+
+#textBox {
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+p {
+	border: 2px solid black;
+	padding: 10px 20px;
+	background-color: #2a2a2a;
+}
