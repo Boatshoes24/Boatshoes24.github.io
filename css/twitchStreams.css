@@ -10,7 +10,6 @@ html {
 .row {
 	padding-top: 10px;
 }
-
-iframe {
+.customBorder {
 	border: 2px solid black;
 }
