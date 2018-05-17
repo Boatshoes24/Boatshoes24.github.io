@@ -39,8 +39,12 @@ video#bgvid {
     opacity: 0.8;
 }
 @media screen and (max-device-width: 800px) {
-    html {
-         background: url(https://i.imgur.com/qI2VMr0.jpg) #000 no-repeat center center fixed;
+    body {
+    background-image: url(https://i.imgur.com/qI2VMr0.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #1a1a1a;
+	color: rgba(255,255,255,0.8);
     }
     #bgvid {
         display: none;
