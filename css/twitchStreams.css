@@ -1,0 +1,16 @@
+body {
+	background-color: #1a1a1a;
+}
+html {
+	height: 100%;
+}
+.navbar {
+	background-color: #2a2a2a;
+}
+.row {
+	padding-top: 10px;
+}
+
+iframe {
+	border: 2px solid black;
+}
