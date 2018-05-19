@@ -3,7 +3,7 @@ body {
 	background-size: cover;
 	background-position: center;
 	background-color: #1a1a1a;
-	color: rgba(255,255,255,0.9);
+	color: #b2b2b2;
 }
 
 html {
@@ -26,7 +26,8 @@ html {
 }
 h1 {
 	text-align: center;
-	margin-top: 15px;
+	padding-top: 15px;
+	font-family: 'Lato', sans-serif;
 }
 h4 {
 	color: #83efec;

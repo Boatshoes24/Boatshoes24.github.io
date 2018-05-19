@@ -1,5 +1,6 @@
 body {
 	background-color: #1a1a1a;
+	color: #b2b2b2;
 }
 
 .navbar {
@@ -15,10 +16,10 @@ body {
 	background-color: #1a1a1a;
 	border-radius: 0px;
 }
-h1{
-	padding-top: 25px;
+h1 {
 	text-align: center;
-	color: white;
+	padding-top: 15px;
+	font-family: 'Lato', sans-serif;
 }
 
 h2 {
