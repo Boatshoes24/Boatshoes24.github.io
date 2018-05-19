@@ -12,6 +12,7 @@ html {
 
 .navbar {
 	background-color: #2a2a2a;
+	border-bottom: 1px solid black;
 }
 
 #imageBox {

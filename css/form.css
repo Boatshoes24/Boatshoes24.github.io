@@ -1,0 +1,45 @@
+body {
+	background-color: #1a1a1a;
+	color: #b2b2b2;
+}
+h1 {
+	text-align: center;
+	padding-top: 15px;
+}
+.navbar {
+	background-color: #2a2a2a;
+	border-bottom: 1px solid black;
+}
+.container {
+	background-color: #2a2a2a;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: 0 auto;
+	border: 1px solid black;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.form-control {
+	background-color: #1a1a1a;
+	border: 1px solid black;
+	border-radius: 0px;
+	color: #9a9a9a;
+}
+.form-control:focus {
+	background-color: #1a1a1a;
+	box-shadow: none;
+	border: 1px solid black;
+	color: #83efec;
+}
+.btn {
+	color: white;
+	background-color: #1a1a1a;
+	border: 1px solid black;
+	border-radius: 0px;
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+}
