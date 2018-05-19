@@ -43,3 +43,7 @@ h1 {
 	background-color: white;
 	color: black;
 }
+a:link,a:visited {
+	color: #83efec;
+	text-decoration: none;
+}
