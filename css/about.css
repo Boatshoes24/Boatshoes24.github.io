@@ -14,16 +14,38 @@ html {
 	background-color: #2a2a2a;
 	border-bottom: 1px solid black;
 }
-
-#textBox {
-	width: 70%;
-	height: 70%;
-	text-align: center;
-	margin: 0 auto;
-	padding-top: 100px;
-}
-p {
-	border: 2px solid black;
-	padding: 10px 20px;
+.container {
 	background-color: #2a2a2a;
+	border: 1px solid black;
+	padding: 35px 25px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.colorWrap {
+	color: #83efec;
+}
+h1 {
+	text-align: center;
+	margin-top: 15px;
+}
+h4 {
+	color: #83efec;
+}
+a:link,a:visited {
+	color: #83efec;
+	text-decoration: none;
+}
+.footerGroup {
+	margin-top: 50px;
+}
+.btn {
+	background-color: #1a1a1a;
+	border: 1px solid black;
+	border-radius: 0px;
+	color: #83efec;
+}
+
+.btn:hover {
+	background-color: #2f2f2f;
+	color: #83efec;
 }
