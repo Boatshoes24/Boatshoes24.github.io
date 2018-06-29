@@ -39,34 +39,72 @@
     </ul>
   </div>
 </nav>
-<h1>Progress Test Page</h1>
 <div class="container">
 	<div class="row no-gutters progressRow">
-		<div class="col-xl-1"><h2>Uldir</h2></div>
-		<div class="col-xl-11">
-			<div class="progress">
-  				<div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-  			</div>
-		</div>
-	</div>
+    <div class="col raid_progress">
+      <h6>Emerald Nightmare</h6>
+      <span id="en_normal" class="progress_values"></span>
+      <br>
+      <span id="en_heroic" class="progress_values"></span>
+      <br>
+      <span id="en_mythic" class="progress_values"></span>
+    </div>
+    <div class="col raid_progress">
+      <h6>Trial of Valor</h6>
+      <span id="tov_normal" class="progress_values"></span>
+      <br>
+      <span id="tov_heroic" class="progress_values"></span>
+      <br>
+      <span id="tov_mythic" class="progress_values"></span>
+    </div>
+    <div class="col raid_progress">
+      <h6>Nighthold</h6>
+      <span id="nh_normal" class="progress_values"></span>
+      <br>
+      <span id="nh_heroic" class="progress_values"></span>
+      <br>
+      <span id="nh_mythic" class="progress_values"></span>
+    </div>
+    <div class="col raid_progress">
+      <h6>Tomb of Sargeras</h6>
+      <span id="tos_normal" class="progress_values"></span>
+      <br>
+      <span id="tos_heroic" class="progress_values"></span>
+      <br>
+      <span id="tos_mythic" class="progress_values"></span>
+    </div>
+    <div class="col raid_progress">
+      <h6>Antorus</h6>
+      <span id="abt_normal" class="progress_values"></span>
+      <br>
+      <span id="abt_heroic" class="progress_values"></span>
+      <br>
+      <span id="abt_mythic" class="progress_values"></span>
+    </div>
+  </div>
 	<div class="row no-gutters">
     <div class="col-xl-6 col-lg-12">
         <div class="row no-gutters">
-            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/7zvzTv1.jpg"></div>
-            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/GIaQsS2.jpg"></div>
-            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/0U73cgZ.jpg"></div>
-            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/pUS0HR3.jpg"></div>
+            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/7zvzTv1.jpg" class="uldir_boss" id="uldir_boss_1"></div>
+            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/GIaQsS2.jpg" class="uldir_boss" id="uldir_boss_2"></div>
+            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/0U73cgZ.jpg" class="uldir_boss" id="uldir_boss_3"></div>
+            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/pUS0HR3.jpg" class="uldir_boss" id="uldir_boss_4"></div>
         </div>
     </div>
     <div class="col-xl-6 col-lg-12">
         <div class="row no-gutters">
-            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/ShIuDFP.jpg"></div>
-            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/LVhIWCY.jpg"></div>
-            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/YH3uoIB.jpg"></div>
-            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/qX6TFnZ.jpg"></div>
+            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/ShIuDFP.jpg" class="uldir_boss" id="uldir_boss_5"></div>
+            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/LVhIWCY.jpg" class="uldir_boss" id="uldir_boss_6"></div>
+            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/YH3uoIB.jpg" class="uldir_boss" id="uldir_boss_7"></div>
+            <div class="col-lg-3 col-sm-6"><img src="https://i.imgur.com/qX6TFnZ.jpg" class="uldir_boss" id="uldir_boss_8"></div>
         </div>
     </div>
-</div>
+  </div>
+  <div class="row no-gutters">
+    <div class="col-xl-12 displayImage">
+      <img src="https://i.imgur.com/vLPCbjQ.jpg" id="main_image">
+    </div>
+  </div>
 </div>
 
 
@@ -76,5 +114,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../js/progress.js"></script>
 </body>
 </html>
